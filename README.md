@@ -11,7 +11,9 @@ You are gonna wanna learn sfdx trailheads first, such as [Get Started with SFDX]
 
 Otherwise you might be lost on the parameters used in the cheatsheet. In fact, some of the parameters defaults the scratch org to be used, so know what you are doing is eseential.
 
-__Hint.__ always use `-h` to get help if you are not sure, such as `sfdx force:source:status -h`
+__Hint1.__ always use `-h` to get help if you are not sure what the command does, such as `sfdx force:source:status -h`
+
+__Hint2.__ Create shell alias to save typings... it is a personal taste thing thus not covered here.
 
 ## Cheatsheet
 
