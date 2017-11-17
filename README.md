@@ -23,6 +23,7 @@ __Hint2.__ Create shell alias to save typings... it is a personal taste thing th
 |Open the org in browser| sfdx force:org:open -u DevHub| without `-u` will open the default scratch org|
 |Create a project locally | sfdx force:project:create -n MyProject| |
 |Create a scratch org with alias tempTest|sfdx force:org:create -s -f config/project-scratch-def.json -a tempTest|`-s` sets it to default scratch org for this project|
+|Delete a scratch org with alias tempTest|sfdx force:org:delete -u tempTest|`-u` accepts either username or scratch org alias"|
 |Check changes between the scratch org and local project|sfdx force:source:status| Similar to `git status`|
 |Pull changes from the scratch org| sfdx force:source:pull|Similar to `git pull`|
 |Push changes to the scratch org| sfdx force:source:push|Similar to `git push`|
