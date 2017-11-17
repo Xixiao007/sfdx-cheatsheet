@@ -30,6 +30,7 @@ __Hint2.__ Create shell alias to save typings... it is a personal taste thing th
 |Assign corresponding permission to the current logged in user|sfdx force:user:permset:assign -n myCustomPermSet||
 |Export some sample data from the scratch org| sfdx force:data:tree:export -q "SELECT Name, Location__Latitude__s, Location__Longitude__s FROM Account WHERE Location__Latitude__s != NULL AND Location__Longitude__s != NULL" -d ./data| the `pull/push` in `sfdx` dooes not sync user regular data, this step should be done individually|
 |Import sample data to the current scratch org|sfdx force:data:tree:import --sobjecttreefiles data/Account.json|You might want some sample data in your CI/CD pipelines|
+|Create lightning App| sfdx force:lightning:app:create -n AccountLocatorApp -d force-app/main/default/aura/ ||
 |Create lightning component| sfdx force:lightning:component:create -n myComponent -d force-app/main/default/aura ||
 |Create lightning event| sfdx force:lightning:event:create -n myEvent -d force-app/main/default/aura||
 
