@@ -33,6 +33,7 @@ __Hint2.__ Create shell alias to save typings... it is a personal taste thing th
 |Create lightning App| sfdx force:lightning:app:create -n AccountLocatorApp -d force-app/main/default/aura/ ||
 |Create lightning component| sfdx force:lightning:component:create -n myComponent -d force-app/main/default/aura ||
 |Create lightning event| sfdx force:lightning:event:create -n myEvent -d force-app/main/default/aura||
+|Install LTS testing framework | sfdx force:lightning:test:install | https://forcedotcom.github.io/LightningTestingService/ |
 
  
 
