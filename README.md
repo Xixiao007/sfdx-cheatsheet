@@ -35,4 +35,4 @@ __Hint2.__ Create shell alias to save typings... it is a personal taste thing th
 |Create lightning event| sfdx force:lightning:event:create -n myEvent -d force-app/main/default/aura||
 |Install LTS testing framework | sfdx force:lightning:test:install | https://forcedotcom.github.io/LightningTestingService/ |
 |Set a connect hub as default | sfdx force:config:set defaultdevhubusername=<username\|alias>||
-|Set an existing scratch org as default | sfdx force:config:set defaultausername=<username\|alias>||
+|Set an existing scratch org as default | sfdx force:config:set defaultusername=<username\|alias>||
