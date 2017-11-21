@@ -36,3 +36,4 @@ __Hint2.__ Create shell alias to save typings... it is a personal taste thing th
 |Install LTS testing framework | sfdx force:lightning:test:install | https://forcedotcom.github.io/LightningTestingService/ |
 |Set a connect hub as default | sfdx force:config:set defaultdevhubusername=<username\|alias>||
 |Set an existing scratch org as default | sfdx force:config:set defaultusername=<username\|alias>||
+|run tests included in `jasmineTests.app`|sfdx force:lightning:test:run -a jasmineTests.app||
