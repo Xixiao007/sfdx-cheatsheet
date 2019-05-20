@@ -1,3 +1,7 @@
+## Cheatsheet
+
+The cheatsheet content has been moved to this gist for the convenience of updating: https://gist.github.com/Xixiao007/e22aad45caf67df33aeafae085810570
+
 # Salesforce Development Experience (SFDX) Cheatsheet
 
 ## What is SFDX?
@@ -15,6 +19,4 @@ __Hint1.__ always use `-h` to get help if you are not sure what the command does
 
 __Hint2.__ Create shell alias to save typings... it is a personal taste thing thus not covered here.
 
-## Cheatsheet
 
-The cheatsheet content has been moved to this gist for the convenience of updating: https://gist.github.com/Xixiao007/e22aad45caf67df33aeafae085810570
