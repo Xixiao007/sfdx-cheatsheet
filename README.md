@@ -1,6 +1,6 @@
 ## Cheatsheet
 
-The cheatsheet content has been moved to this gist for the convenience of updating: https://gist.github.com/Xixiao007/e22aad45caf67df33aeafae085810570
+The cheatsheet content has been moved to this gist for the convenience of updating: https://gist.github.com/XiXiaoFinland/e22aad45caf67df33aeafae085810570
 
 # Salesforce Development Experience (SFDX) Cheatsheet
 
